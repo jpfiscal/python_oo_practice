@@ -1,0 +1,15 @@
+#legumes
+Black beans
+Pinto beans
+Chickpeas
+
+#proteins
+Chicken breast
+Protein powder
+Fish
+
+#veggies
+Choy
+Spinach
+Kale
+Avocado

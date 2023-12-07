@@ -23,9 +23,14 @@ class SerialGenerator:
     def __init__(self, start):
         self.start = start
 
+    def __repr__(self):
+        return f"<SerialGenerator start={self.start} next={self.start+self.run_count}>"
+
     def generate(self):
+        "generate a unique serial number."
         self.run_count +=1
         return self.start + self.run_count - 1
     
     def reset(self):
+        "reset the serial number back to defined starting point."
         self.run_count = 0
